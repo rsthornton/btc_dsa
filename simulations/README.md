@@ -1,13 +1,12 @@
 # Bitcoin Computational Simulations
 
-This directory contains Bitcoin simulations using two complementary modeling frameworks: Agent-Based Modeling (ABM) and System Dynamics (SD). These simulations implement concepts from the accompanying Deep Systems Analysis paper.
+This directory contains Bitcoin simulations using two complementary modeling frameworks: Agent-Based Modeling (ABM) and System Dynamics (SD). Both implementations are guided by Deep Systems Analysis (DSA) methodology.
 
 ## Contents
 
-- `btc_abm.ipynb`: Agent-Based Model implementation of Bitcoin based on Kaligotla and Macal's framework
-- `btc_sd.ipynb`: System Dynamics Model implementation of Bitcoin based on Gopalakrishnan's MIT thesis
-- `btc_abm_analysis.md`: Analysis of the ABM implementation and its relationship to theory
-- `btc_sd_analysis.md`: Analysis of the SD implementation and its relationship to theory
+- `btc_abm/`: Agent-Based Model implementation of Bitcoin
+- `btc_sd/`: System Dynamics Model implementation of Bitcoin
+- `requirements.txt`: Dependencies for running the simulations
 
 ## Agent-Based Model (ABM)
 
@@ -34,10 +33,10 @@ This approach focuses on macro-level dynamics and feedback relationships between
 Access and run the simulations directly in your browser:
 
 1. **Agent-Based Model (ABM)**:
-   - [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1AlQmLd51xPCS0HNHiGFGyv4lLdqTp17w)
+   - [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1XNYkyDZq-Ey_MToYBOqJ_YP6UesKdtyj)
 
 2. **System Dynamics Model (SD)**:
-   - [Open SD Notebook in Colab](https://colab.research.google.com/drive/1fLwkYTXegprwllNtRAGUPEV25DpmqfcW)
+   - [Open SD Notebook in Colab](https://colab.research.google.com/drive/1U7PfPnGQyVTyqXG3mX_77ZJLkP3DWsy3)
 
 ### Option 2: Local Installation
 
@@ -49,8 +48,6 @@ To run these simulations locally:
 4. Navigate to either the `btc_abm/` or `btc_sd/` directory
 5. Open the respective notebook
 
-## Documentation
+## Implementation Notes
 
-Each notebook contains detailed comments explaining the implementation. For in-depth analysis:
-- See `btc_abm_analysis.md` for details on the Agent-Based Model
-- See `btc_sd_analysis.md` for details on the System Dynamics Model
+Both simulations use the cadCAD framework to model Bitcoin's complex dynamics. The notebooks include narrative sections that explain how DSA facilitated the rapid development of these simulations by identifying key system components, flows, and feedback mechanisms.
