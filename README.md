@@ -14,8 +14,6 @@ This repository contains the paper "A Deep Systems Analysis of Bitcoin" along wi
   - `btc_sd/`: System Dynamics Model implementation and documentation
   - `README.md`: Overview of the simulation approaches
 
-- `integration_plan.md`: Plan for integrating simulation insights into the paper
-- `latex_integration_instructions.md`: Instructions for adding simulation references to LaTeX
 
 ## Abstract
 
@@ -33,10 +31,24 @@ These models are available in the `simulations/` directory with detailed documen
 
 ## Running the Simulations
 
-To explore the computational models:
+### Option 1: Run in Google Colab (Recommended)
+
+The easiest way to explore the simulations is through Google Colab, which requires no local setup:
+
+1. **Agent-Based Model (ABM)**: 
+   - [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1AlQmLd51xPCS0HNHiGFGyv4lLdqTp17w)
+   
+2. **System Dynamics Model (SD)**:
+   - [Open SD Notebook in Colab](https://colab.research.google.com/drive/1fLwkYTXegprwllNtRAGUPEV25DpmqfcW)
+
+Simply click the links above and select "Run all" from the Runtime menu to execute the simulations.
+
+### Option 2: Run Locally
+
+If you prefer to run the simulations on your local machine:
 
 1. Ensure you have Python 3.8+ and Jupyter Notebook installed
-2. Install required packages: `pip install cadCAD pandas numpy matplotlib`
+2. Install required packages: `pip install -r simulations/requirements.txt`
 3. Navigate to either `simulations/btc_abm/` or `simulations/btc_sd/`
 4. Open the respective Jupyter notebook
 5. Run the simulations and explore the results
