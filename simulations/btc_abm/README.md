@@ -45,6 +45,16 @@ The simulation uses cadCAD (Complex Adaptive Dynamics Computer-Aided Design) to 
 
 ## Running the Simulation
 
+### Run Online (Recommended)
+
+The easiest way to explore this model is through Google Colab:
+
+- [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1AlQmLd51xPCS0HNHiGFGyv4lLdqTp17w)
+
+### Run Locally
+
+To run on your local machine:
+
 1. Ensure requirements are installed: `pip install cadCAD pandas numpy matplotlib`
 2. Open `btc_abm.ipynb` in Jupyter Notebook
 3. Run all cells to execute the simulation
