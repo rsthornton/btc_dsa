@@ -4,15 +4,16 @@ This repository contains the paper "A Deep Systems Analysis of Bitcoin" along wi
 
 ## Repository Structure
 
-- `paper/`: Contains the main paper and related resources
-  - `dsa_btc.md`: The paper in markdown format
+- `working_paper/`: Contains the final paper
   - `A_Deep_Systems_Analysis_of_Bitcoin.pdf`: PDF version of the paper
-  - `README.md`: Overview of the paper
   
 - `simulations/`: Contains computational models referenced in the paper
   - `btc_abm/`: Agent-Based Model implementation and documentation
   - `btc_sd/`: System Dynamics Model implementation and documentation
   - `README.md`: Overview of the simulation approaches
+  
+- `model/`: Contains system model data
+  - `btc.json`: JSON representation of the Bitcoin system model
 
 
 ## Abstract
@@ -36,10 +37,10 @@ These models are available in the `simulations/` directory with detailed documen
 The easiest way to explore the simulations is through Google Colab, which requires no local setup:
 
 1. **Agent-Based Model (ABM)**: 
-   - [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1AlQmLd51xPCS0HNHiGFGyv4lLdqTp17w)
+   - [Open ABM Notebook in Colab](https://colab.research.google.com/drive/1XNYkyDZq-Ey_MToYBOqJ_YP6UesKdtyj)
    
 2. **System Dynamics Model (SD)**:
-   - [Open SD Notebook in Colab](https://colab.research.google.com/drive/1fLwkYTXegprwllNtRAGUPEV25DpmqfcW)
+   - [Open SD Notebook in Colab](https://colab.research.google.com/drive/1U7PfPnGQyVTyqXG3mX_77ZJLkP3DWsy3)
 
 Simply click the links above and select "Run all" from the Runtime menu to execute the simulations.
 
